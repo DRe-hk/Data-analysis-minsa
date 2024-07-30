@@ -2,8 +2,6 @@ import pandas as pd
 import plotly.express as px
 from dash import Dash, dcc, html, Input, Output
 import json
-import pdfkit
-from flask import Flask, send_file
 
 app = Dash(__name__)
 
