@@ -4,6 +4,7 @@ from dash import Dash, dcc, html, Input, Output
 import json
 
 app = Dash(__name__)
+server = app.server
 
 
 # Diccionario de enfermedades y sus archivos CSV
