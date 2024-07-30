@@ -1,0 +1,117 @@
+/* assets/style.css */
+
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.header {
+    margin-bottom: 10px;
+    height: 10%;
+
+}
+
+.title {
+    color: #6df0c8;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    height: calc(100% - 100px);
+}
+
+.map_container {
+    width: 70%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.sidebar {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.dbc .Select-control {
+  border: solid rgba(100, 100, 100, 0.4) 2px !important;
+  width: 100%;
+    border: 1px solid #6df0c8 !important;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: #1e1e1e !important;
+    text-align: center;
+    padding-left: 8px;
+margin: 2px;
+}
+
+/* changes the text color of input box */
+.dbc .Select-value-label {
+  color: #ffffff !important;
+}
+
+.dbc .Select input {
+  color: #ffffff;
+}
+.dbc .Select-menu {
+    background-color: #1e1e1e;
+    border: 1px solid #6df0c8;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 0px;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+
+/* dropdown menu options */
+.dbc .VirtualizedSelectOption {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+/* dropdown menu hover effect */
+.dbc .VirtualizedSelectFocusedOption {
+  background-color: #6df0c8;
+  color: black;
+}
+
+/* border on focus - default is blue
+ * shadow box around input box.  default is blue
+ */
+.dbc .is-focused:not(.is-open) > .Select-control {
+  border-color: var(--bs-primary) !important;
+  box-shadow: 0 0 0 0.2rem rgba(var(--bs-primary-rgb), 0.2);
+}
+
+
+
+.graph {
+    height: 70%;
+    margin-bottom: 5px;
+}
+
+.summary {
+    height: 30%;
+    overflow-y: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+}
